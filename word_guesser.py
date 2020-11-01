@@ -32,11 +32,3 @@ if answer_hidden == answer:
     print("You guessed it! The answer is:", answer.capitalize())
 else:
     print("You're out of guesses. Unlucky, next time.")
-#https://www.youtube.com/watch?v=jPmBUoSZ6tY
-#        if letter == word[i]:
-#            print(word[:i])
-#            lives -= 1
-#        else:
-#            print("Guess again")
-#            print(letter)
-#            lives -= 1
