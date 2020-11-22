@@ -13,8 +13,6 @@ def password_checker():
             elif password[i].islower():
                 l += 1
             elif password[i] in special_characters:
-            #((password[i] == '@') or (password[i] == "!") or (password[i] == "$") or (password[i] == "£") or (password[i] == "#") or (password[i] == "%") or 
-            (password[i] == "&") or (password[i] == "*") or (password[i] == "?") or (password[i] == "/") or (password[i] == "~")):
                 sc += 1
             elif password[i].isdigit():
                 n += 1
