@@ -1,5 +1,4 @@
 from random import randint
-
 number = ""
 
 while len(number) < 4:
