@@ -1,3 +1,6 @@
+#This program asks the user to create a password. In order for the password to be accepted, it has to meet certain criteria: be longer than 8 characters, contain numbers and special characters, and contain a mixture of upper and lower case letters.
+
+
 def password_checker():
     password = input("Enter a password. Your password should contain a mixture of letters, numbers and special characters, and at least 8 characters long: ")
     u, l, sc, n = 0,0,0,0
