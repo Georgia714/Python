@@ -1,3 +1,5 @@
+#This program creates a four-digit pin from randomly-selected numbers; it then gives the user 12 attempts to guess the number. 
+
 from random import randint
 number = ""
 
